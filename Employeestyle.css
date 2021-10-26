@@ -1,0 +1,61 @@
+button{
+			color:red;
+			background-color:#E0AD36;
+			font-size: 25px;
+		}
+h2{
+	color:white;
+	font-size:20px;
+	background-color:brown;
+	padding-left:80px,80px;
+	
+}
+.div1 {
+		background-image:url("./images/register.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		object-fit: fill;
+		border: 5px outset red;
+		height:600px ;
+		overflow-y:auto;
+			  
+	}
+.div2 {
+		background-image:url("./images/register2.jpg");
+		background-position: fill;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		object-fit: fill;
+		border: 5px outset blue;
+		height:600px ; 
+	}
+form input[type="text"] {
+		width:50%;
+		border:0;
+		border-bottom:2px solid red;
+		background:transparent;
+		outline:non;
+		color:black;
+		padding: 10px 15px;
+		
+		box-sizing: border-box;
+	}
+form input[type="date"] {
+		width:50%;
+		border:0;
+		border-bottom:2px solid red;
+		background:transparent;
+		outline:non;
+		placeholder:#fff;
+		padding: 10px 15px;
+		box-sizing: border-box;
+	}
+form input[type="submit"] {
+		color:black;
+		background-color:#6F876E;
+		font-size: 25px;
+		padding: 10px 15px;
+	}
